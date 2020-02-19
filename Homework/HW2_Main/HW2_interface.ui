@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget_HW2</class>
+ <widget class="QWidget" name="Widget_HW2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>972</width>
+    <height>569</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>972</width>
+    <height>569</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>972</width>
+    <height>569</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>HW2_P76087099_NguyenVuLeMinh</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>cvHw1.ico</normaloff>cvHw1.ico</iconset>
+  </property>
+  <widget class="QGroupBox" name="groupCVDL">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>441</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>CDVL</string>
+   </property>
+   <widget class="QGroupBox" name="group_stereo">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>201</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>1. Stereo</string>
+    </property>
+    <widget class="QPushButton" name="btn_disparity">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>30</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1.1 Disparity</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="group_NCC">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>201</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>2. Normalized Cross Correlation</string>
+    </property>
+    <widget class="QPushButton" name="btn_ncc">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>30</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2.1 NCC</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="group_sift">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>40</y>
+      <width>171</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>3. SIFT</string>
+    </property>
+    <widget class="QPushButton" name="btn_keypoints">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3.1 Keypoints</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_MK">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>130</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3.2 Matched Keypoints</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="group_opencvdl">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>10</y>
+     <width>451</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>OpenCVDL</string>
+   </property>
+   <widget class="QGroupBox" name="group_stereo2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>211</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>1. Stereo</string>
+    </property>
+    <widget class="QPushButton" name="btn_disparity2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1.1 Disparity</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="group_BS">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>211</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>2. Background Subtraction</string>
+    </property>
+    <widget class="QPushButton" name="btn_BS">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2.1 Background Subtraction</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="group_AR">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>200</y>
+      <width>181</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>4. Augmented Reality</string>
+    </property>
+    <widget class="QPushButton" name="btn_AR">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>4.1 Augmented Reality</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="group_FT">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>40</y>
+      <width>181</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>3. Feature Tracking</string>
+    </property>
+    <widget class="QPushButton" name="btn_preprocessing">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3.1 Preprocessing</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_videotracking">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3.2 Video Tracking</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_show">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>350</y>
+     <width>911</width>
+     <height>171</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_myname">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>540</y>
+     <width>221</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HW2_P76087099_NguyenVuLeMinh</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
